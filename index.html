@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <base href="./" />
+    <meta charset="utf-8" />
+    <title>Prototype HTML</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prototype HTML" />
+    <meta name="author" content="DGFiP" />
+    <meta name="msapplication-config" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="img/favicon.ico" />
+    <!--[if IE]>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+<![endif]-->
+    <!-- Optional: Android & iPhone-->
+    <link rel="icon apple-touch-icon-precomposed" href="img/favicon-152.png" />
+    <!-- Optional: IE10 Tile.-->
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/favicon-144.png" />
+    <!-- Optional: ipads, androids, iphones, ...-->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png" />
+    <link rel="apple-touch-icon" href="img/favicon-57.png" />
+
+    <link href="css/application.css" rel="stylesheet" />
+    <link href="css/stylePerso.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/inea.min.js" async defer></script>
+    <script src="js/jquery-ui.min.js" async defer></script>
+</head>
+
+<body class="undefined">
+    <noscript>
+        <p class="js-off">Javascript est desactivé dans votre navigateur.</p>
+    </noscript>
+
+    <!-- inea:browsehappy:debut -->
+    <!--[if lt IE 8]>
+        <div class="browsehappy">
+            <div class="container">
+            <p>Savez-vous que votre navigateur est obsolète ?<p>
+            <p> Pour naviguer de la manière la plus satisfaisante sur le Web, nous vous recommandons de procéder à une <a href="http://windows.microsoft.com/fr-fr/internet-explorer/download-ie">mise à jour de votre navigateur</a>.
+            <br>Vous pouvez aussi <a href="http://browsehappy.com/">essayer d’autres navigateurs web populaires</a>.</p>
+            </div>
+        </div>
+    <![endif]-->
+    <!-- inea:browsehappy:fin -->
+
+    <!-- inea:liens-evitement:debut -->
+    <div class="bloc-liens-evitement">
+        <p class="sr-only">Accès rapide</p>
+        <ul class="skiplinks">
+            <li>
+                <a href="#" inea-target-focus="main h1">Contenu</a>
+            </li>
+        </ul>
+    </div>
+    <!-- inea:liens-evitement:fin -->
+
+    <!-- inea:entete:debut -->
+    <header class="public" role="banner">
+        <div class="container">
+            <!-- inea:bloc-entete:debut -->
+            <div class="row bloc-entete">
+                <!-- inea:accueil-entete:debut -->
+                <div class="col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-1 pl-sm-0 col-md-6 col-md-offset-0">
+                    <a class="inline-flex-row accueil-entete" href="index.html">
+                        <div class="logo-dgfip">
+                            <img src="img/dgfip_logo.png" alt="logo de la direction générale des finances publiques" />
+                        </div>
+                        <div class="inline-flex-col titre-entete">
+                            <div class="libelle-titre-entete text-nowrap">
+                                <span class="text-undefined">CREA</span>
+                            </div>
+                        </div>
+                        <div class="grow-self logo-capNum">
+                            <img src="img/LOGO_FINAL4_petit.png" alt="logo de cap numérique" />
+                        </div>
+
+                    </a>
+                </div>
+                <!-- inea:accueil-entete:fin -->
+
+
+            </div>
+            <!-- inea:bloc-entete:fin -->
+
+            <!-- inea:bloc-barre-navigation:debut -->
+            <div class="row bloc-barre-navigation ">
+                <!-- inea:barre-navigation:debut -->
+                <div class="navbar navbar-usager">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse" tabindex="-1" aria-hidden="true">
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                        </button>
+                    </div>
+                    <div id="navbar-collapse" class="collapse navbar-collapse">
+                        <nav role="navigation" aria-label="Menu principal">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#">enjeux</a>
+                                </li>
+                                <li class="active">
+                                    <a href="introDemarche.html">
+                                        démarche projet
+                                        <span class="sr-only ">, élément actif</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">ressources</a>
+                                </li>
+                                <li>
+                                    <a href="#">accompagnement</a>
+                                </li>
+                                <li class="divider" aria-hidden="true"></li>
+                                <li>
+                                    <a href="#">accessibilité numérique</a>
+                                </li>
+                                <li>
+                                    <a href="#">UX-Design</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- inea:barre-navigation:fin -->
+            </div>
+            <!-- inea:bloc-barre-navigation:fin -->
+        </div>
+    </header>
+    <!-- inea:entete:fin -->
+
+    <main role="main">
+        <!-- ib:espace-dialogue:debut -->
+        <div class="container">
+            <div class="row no-gutters bloc-contenu">
+                <!-- ib:bloc-contenu:debut -->
+                <div class="col-xs-12 flex-col">
+                    <div class="row no-gutters">
+                        <!-- ib:sections-rwd:debut -->
+                        <div class="flex-col col-xs-12 col-sm-12 col-md-8">
+                            <!-- ib:section-rwd:debut -->
+                            <div class="row no-gutters">
+                                <!-- ib:sections-rwd:debut -->
+                                <div class="flex-col col-xs-12 col-sm-6 hidden-sm hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self gutters py-1 bg-blanc">
+                                        <!-- ib:panneau-rwd:debut -->
+                                        <div class="row">
+                                            <!-- ib:contenus-rwd:debut -->
+                                            <div class="col-xs-12 orangeMaquette-bg">
+                                                <!-- ib:contenu-rwd:debut --><a href="#enjeux" data-toggle="collapse"
+                                                    aria-controls="enjeux" aria-expanded="true"
+                                                    class="grow-self flex-row align-items-center mb-3_2  font-size-24 a-unstyled">
+                                                    <!-- ib:lien-flex:debut --><span
+                                                        class="mr-1 dgfipicon dgfipicon-info"></span>
+                                                    <p role="heading" aria-level="2"
+                                                        class="grow-self font-bold p-unstyled">
+                                                        <!-- ib:paragraphe:debut --><span>Les enjeux</span>
+                                                        <!-- ib:paragraphe:fin -->
+                                                    </p><span title="Plier" aria-hidden="true"
+                                                        class="ml-1_2 collapseicon"></span><!-- ib:lien-flex:fin -->
+                                                </a><!-- ib:contenu-rwd:fin -->
+                                            </div>
+                                            <div class="flex-col col-xs-12">
+                                                <!-- ib:contenu-rwd:debut -->
+                                                <div id="enjeux" role="region" class="collapse grow-self">
+                                                    <ul class="mt-1 liste">
+                                                        <!-- ib:liste:debut -->
+                                                        <li><span>Pourquoi CREA ?</span></li>
+                                                        <li><span>Sensibilisation</span></li>
+                                                        <!-- ib:liste:fin -->
+                                                    </ul>
+                                                </div><!-- ib:contenu-rwd:fin -->
+                                            </div><!-- ib:contenus-rwd:fin -->
+                                        </div><!-- ib:panneau-rwd:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 col-sm-6 hidden-sm hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self gutters py-1 bg-blanc">
+                                        <!-- ib:panneau-rwd:debut -->
+                                        <div class="row">
+                                            <!-- ib:contenus-rwd:debut -->
+                                            <div class="col-xs-12 orangeMaquette-bg">
+                                                <!-- ib:contenu-rwd:debut --><a href="#demarche" data-toggle="collapse"
+                                                    aria-controls="demarche" aria-expanded="true"
+                                                    class="grow-self flex-row align-items-center mb-3_2 font-size-24 a-unstyled">
+                                                    <!-- ib:lien-flex:debut --><span
+                                                        class="mr-1 dgfipicon dgfipicon-regimes-imposition"></span>
+                                                    <p role="heading" aria-level="2"
+                                                        class="grow-self font-bold p-unstyled">
+                                                        <!-- ib:paragraphe:debut --><span>La demarche projet</span>
+                                                        <!-- ib:paragraphe:fin -->
+                                                    </p><span title="Plier" aria-hidden="true"
+                                                        class="ml-1_2 collapseicon"></span><!-- ib:lien-flex:fin -->
+                                                </a><!-- ib:contenu-rwd:fin -->
+                                            </div>
+                                            <div class="flex-col col-xs-12">
+                                                <!-- ib:contenu-rwd:debut -->
+                                                <div id="demarche" role="region" class="collapse grow-self">
+                                                    <ul class="mt-1 liste">
+                                                        <!-- ib:liste:debut -->
+                                                        <li><a href="introMaquettage.html"><span>Maquettage</span></a></li>
+                                                        <li><a href="introProto.html"><span>Prototypage</span></a></li>
+                                                        <li><a href=""><span>Developpement</span></a></li>
+                                                        <!-- ib:liste:fin -->
+                                                    </ul>
+                                                </div><!-- ib:contenu-rwd:fin -->
+                                            </div><!-- ib:contenus-rwd:fin -->
+                                        </div><!-- ib:panneau-rwd:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 col-sm-6 hidden-sm hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self gutters py-1 bg-blanc">
+                                        <!-- ib:panneau-rwd:debut -->
+                                        <div class="row">
+                                            <!-- ib:contenus-rwd:debut -->
+                                            <div class="col-xs-12 orangeMaquette-bg">
+                                                <!-- ib:contenu-rwd:debut --><a href="#ressources"
+                                                    data-toggle="collapse" aria-controls="ressources"
+                                                    aria-expanded="true"
+                                                    class="grow-self flex-row align-items-center mb-3_2 font-size-24 a-unstyled">
+                                                    <!-- ib:lien-flex:debut --><span
+                                                        class="mr-1 dgfipicon dgfipicon-regimes-imposition"></span>
+                                                    <p role="heading" aria-level="2"
+                                                        class="grow-self font-bold p-unstyled">
+                                                        <!-- ib:paragraphe:debut --><span>Les ressources</span>
+                                                        <!-- ib:paragraphe:fin -->
+                                                    </p><span title="Plier" aria-hidden="true"
+                                                        class="ml-1_2 collapseicon"></span><!-- ib:lien-flex:fin -->
+                                                </a><!-- ib:contenu-rwd:fin -->
+                                            </div>
+                                            <div class="flex-col col-xs-12">
+                                                <!-- ib:contenu-rwd:debut -->
+                                                <div id="ressources" role="region" class="collapse grow-self">
+                                                    <ul class="mt-1 liste">
+                                                        <!-- ib:liste:debut -->
+                                                        <li><span>Charte</span></li>
+                                                        <li><span>INEA</span></li>
+                                                        <li><span>Logiciels/Outils</span></li>
+                                                        <li><span>Exemples</span></li>
+                                                        <li><span>Bonnes pratiques</span></li>
+                                                        <!-- ib:liste:fin -->
+                                                    </ul>
+                                                </div><!-- ib:contenu-rwd:fin -->
+                                            </div><!-- ib:contenus-rwd:fin -->
+                                        </div><!-- ib:panneau-rwd:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 col-sm-6 hidden-sm hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self gutters py-1 bg-blanc">
+                                        <!-- ib:panneau-rwd:debut -->
+                                        <div class="row">
+                                            <!-- ib:contenus-rwd:debut -->
+                                            <div class="col-xs-12 orangeMaquette-bg">
+                                                <!-- ib:contenu-rwd:debut --><a href="#accompagnement"
+                                                    data-toggle="collapse" aria-controls="accompagnement"
+                                                    aria-expanded="true"
+                                                    class="grow-self flex-row align-items-center mb-3_2 font-size-24 a-unstyled">
+                                                    <!-- ib:lien-flex:debut --><span
+                                                        class="mr-1 dgfipicon dgfipicon-attention"></span>
+                                                    <p role="heading" aria-level="2"
+                                                        class="grow-self font-bold p-unstyled">
+                                                        <!-- ib:paragraphe:debut --><span>L'accompagnement</span>
+                                                        <!-- ib:paragraphe:fin -->
+                                                    </p><span title="Plier" aria-hidden="true"
+                                                        class="ml-1_2 collapseicon"></span><!-- ib:lien-flex:fin -->
+                                                </a><!-- ib:contenu-rwd:fin -->
+                                            </div>
+                                            <div class="flex-col col-xs-12">
+                                                <!-- ib:contenu-rwd:debut -->
+                                                <div id="accompagnement" role="region" class="collapse grow-self">
+                                                    <ul class="mt-1 liste">
+                                                        <!-- ib:liste:debut -->
+                                                        <li><span>Formations</span></li>
+                                                        <li><span>Tutorat</span></li>
+                                                        <li><span>Forum</span></li>
+                                                        <li><span>Pôle IHM</span></li>
+                                                        <!-- ib:liste:fin -->
+                                                    </ul>
+                                                </div><!-- ib:contenu-rwd:fin -->
+                                            </div><!-- ib:contenus-rwd:fin -->
+                                        </div><!-- ib:panneau-rwd:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 col-sm-6 hidden-sm hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self gutters py-1 bg-blanc">
+                                        <!-- ib:panneau-rwd:debut -->
+                                        <div class="row">
+                                            <!-- ib:contenus-rwd:debut -->
+                                            <div class="col-xs-12 orangePastelMaquette-bg">
+                                                <!-- ib:contenu-rwd:debut --><a href="#access" data-toggle="collapse"
+                                                    aria-controls="access" aria-expanded="true"
+                                                    class="grow-self flex-row align-items-center mb-3_2 font-size-24 a-unstyled">
+                                                    <!-- ib:lien-flex:debut --><span
+                                                        class="mr-1 dgfipicon dgfipicon-amenager-territoire"></span>
+                                                    <p role="heading" aria-level="2"
+                                                        class="grow-self font-bold p-unstyled">
+                                                        <!-- ib:paragraphe:debut --><span>L'accessibilité
+                                                            numérique</span><!-- ib:paragraphe:fin -->
+                                                    </p><span title="Plier" aria-hidden="true"
+                                                        class="ml-1_2 collapseicon"></span><!-- ib:lien-flex:fin -->
+                                                </a><!-- ib:contenu-rwd:fin -->
+                                            </div>
+                                            <div class="flex-col col-xs-12">
+                                                <!-- ib:contenu-rwd:debut -->
+                                                <div id="access" role="region" class="collapse grow-self">
+                                                    <ul class="mt-1 liste">
+                                                        <!-- ib:liste:debut -->
+                                                        <li><span>Introduction</span></li>
+                                                        <li><span>Legislation</span></li>
+                                                        <li><span>RGAA</span></li>
+                                                        <li><span>Audit</span></li>
+                                                        <!-- ib:liste:fin -->
+                                                    </ul>
+                                                </div><!-- ib:contenu-rwd:fin -->
+                                            </div><!-- ib:contenus-rwd:fin -->
+                                        </div><!-- ib:panneau-rwd:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 col-sm-6 hidden-sm hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self gutters py-1 bg-blanc">
+                                        <!-- ib:panneau-rwd:debut -->
+                                        <div class="row">
+                                            <!-- ib:contenus-rwd:debut -->
+                                            <div class="col-xs-12 orangePastelMaquette-bg">
+                                                <!-- ib:contenu-rwd:debut --><a href="#uxd" data-toggle="collapse"
+                                                    aria-controls="uxd" aria-expanded="true"
+                                                    class="grow-self flex-row align-items-center mb-3_2 font-size-24 a-unstyled">
+                                                    <!-- ib:lien-flex:debut --><span
+                                                        class="mr-1 dgfipicon dgfipicon-auto-entrepreneur"></span>
+                                                    <p role="heading" aria-level="2"
+                                                        class="grow-self font-bold p-unstyled">
+                                                        <!-- ib:paragraphe:debut --><span>UX - Design</span>
+                                                        <!-- ib:paragraphe:fin -->
+                                                    </p><span title="Plier" aria-hidden="true"
+                                                        class="ml-1_2 collapseicon"></span><!-- ib:lien-flex:fin -->
+                                                </a><!-- ib:contenu-rwd:fin -->
+                                            </div>
+                                            <div class="flex-col col-xs-12">
+                                                <!-- ib:contenu-rwd:debut -->
+                                                <div id="uxd" role="region" class="collapse grow-self">
+                                                    <ul class="mt-1 liste">
+                                                        <!-- ib:liste:debut -->
+                                                        <li><span>Mobile First</span></li>
+                                                        <li><span>User centric</span></li>
+                                                        <li><span>Principe UX</span></li>
+                                                        <!-- ib:liste:fin -->
+                                                    </ul>
+                                                </div><!-- ib:contenu-rwd:fin -->
+                                            </div><!-- ib:contenus-rwd:fin -->
+                                        </div><!-- ib:panneau-rwd:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 hidden-xs col-sm-6 col-md-5 col-md-offset-0">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self flex-col pt-1_8 pb-1 px-1_8 mb-xs-3_2 mr-sm-1 bg-blanc">
+                                        <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                            class="inline-flex-row p-1 orangeMaquette-bg">
+                                            <!-- ib:lien-flex:debut --><span
+                                                class="mr-1 dgfipicon dgfipicon-info font-size-40"></span><span
+                                                class="font-size-22 font-bold">Les enjeux</span>
+                                            <!-- ib:lien-flex:fin --></a>
+                                        <ul class="mt-1 ml-1 liste">
+                                            <!-- ib:liste:debut -->
+                                            <li><span>Pourquoi CREA ?</span></li>
+                                            <li><span>Sensibilisation</span></li><!-- ib:liste:fin -->
+                                        </ul><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 hidden-xs col-sm-6 col-md-5 col-md-offset-1">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self flex-col ml-0 pt-1_8 pb-1 px-1_8 mr-sm-1 bg-blanc">
+                                        <!-- ib:panneau-flex:debut --><a href="introDemarche.html"
+                                            class="grow-self inline-flex-row p-3_4 orangeMaquette-bg">
+                                            <!-- ib:lien-flex:debut --><span
+                                                class="mr-1 dgfipicon dgfipicon-consulter-voies font-size-40"></span><span
+                                                class="font-size-22 font-bold">La demarche projet</span>
+                                            <!-- ib:lien-flex:fin --></a>
+                                        <ul class="mt-1 ml-1 liste">
+                                            <!-- ib:liste:debut -->
+                                            <li><a href="introMaquettage.html">
+                                                    <!-- ib:lien:debut -->
+                                                    Maquettage
+                                                    <!-- ib:lien:fin --></a></li>
+                                            <li><a href="introProto.html">
+                                                    <!-- ib:lien:debut -->
+                                                    Prototypage
+                                                    <!-- ib:lien:fin --></a></li>
+                                            <li><a href="develop.html">
+                                                    <!-- ib:lien:debut -->
+                                                    Developpement
+                                                    <!-- ib:lien:fin --></a></li><!-- ib:liste:fin -->
+                                        </ul><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div><!-- ib:sections-rwd:fin -->
+                            </div>
+                            <div class="row no-gutters">
+                                <!-- ib:sections-rwd:debut -->
+                                <div class="flex-col col-xs-12 hidden-xs col-sm-6 col-md-5">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div class="grow-self flex-col my-3_2 pt-1_8 pb-1 px-1_8 mr-sm-1 bg-blanc">
+                                        <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                            class="grow-self inline-flex-row p-1 orangeMaquette-bg">
+                                            <!-- ib:lien-flex:debut --><span
+                                                class="mr-1 dgfipicon dgfipicon-regimes-imposition font-size-40"></span><span
+                                                class="font-size-22 font-bold">Les ressources</span>
+                                            <!-- ib:lien-flex:fin --></a>
+                                        <ul class="mt-1 ml-1 liste">
+                                            <!-- ib:liste:debut -->
+                                            <li><span>Chartes</span></li>
+                                            <li><span>INEA</span></li>
+                                            <li><span>Logiciels/outils</span></li>
+                                            <li><span>Exemples</span></li>
+                                            <li><span>Bonnes pratiques</span></li><!-- ib:liste:fin -->
+                                        </ul><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div
+                                    class="flex-col col-xs-12 hidden-xs col-sm-6 col-sm-offset-0 col-md-5 col-md-offset-1">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div
+                                        class="grow-self flex-col my-3_2 pt-1_8 pb-1 px-1_8 mb-xs-3_2 ml-sm-0 bg-blanc">
+                                        <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                            class="inline-flex-row p-1 orangeMaquette-bg">
+                                            <!-- ib:lien-flex:debut --><span
+                                                class="mr-1 dgfipicon dgfipicon-attention font-size-40"></span><span
+                                                class="font-size-22 font-bold">L'accompagnement</span>
+                                            <!-- ib:lien-flex:fin --></a>
+                                        <ul class="mt-1 ml-1 liste">
+                                            <!-- ib:liste:debut -->
+                                            <li><span>Formations</span></li>
+                                            <li><span>Tutorats</span></li>
+                                            <li><span>Forum</span></li>
+                                            <li><span>Pôle IHM</span></li><!-- ib:liste:fin -->
+                                        </ul><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div><!-- ib:sections-rwd:fin -->
+                            </div>
+                            <div class="row no-gutters">
+                                <!-- ib:sections-rwd:debut -->
+                                <div class="flex-col col-xs-12 hidden-xs col-sm-6 hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div
+                                    class="grow-self flex-col my-3_2 pt-1_8 pb-1 px-1_8 mb-xs-3_2 ml-sm-0 bg-blanc">
+                                        <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                    class="inline-flex-row p-1 bg-gris-400">
+                                    <!-- ib:lien-flex:debut --><span
+                                        class="mr-1 dgfipicon dgfipicon-amenager-territoire font-size-40"></span><span
+                                        class="font-size-22 font-bold">L'accéssibilité numérique</span>
+                                    <!-- ib:lien-flex:fin --></a>
+                                <ul class="mt-1 ml-1 liste">
+                                    <!-- ib:liste:debut -->
+                                    <li><span>Introduction</span></li>
+                                    <li><span>Legislation</span></li>
+                                    <li><span>RGAA</span></li>
+                                    <li><span>Audits</span></li><!-- ib:liste:fin -->
+                                </ul><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div>
+                                <div class="flex-col col-xs-12 hidden-xs col-sm-6 hidden-md hidden-lg">
+                                    <!-- ib:section-rwd:debut -->
+                                    <div
+                                    class="grow-self flex-col my-3_2 pt-1_8 pb-1 px-1_8 mb-xs-3_2 ml-sm-0 bg-blanc">
+                                       <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                    class="inline-flex-row p-1 bg-gris-400">
+                                    <!-- ib:lien-flex:debut --><span
+                                        class="mr-1 dgfipicon dgfipicon-profil font-size-40"></span><span
+                                        class="font-size-22 font-bold">UX - Design</span><!-- ib:lien-flex:fin --></a>
+                                <ul class="mt-1 ml-1 liste">
+                                    <!-- ib:liste:debut -->
+                                    <li><span>Mobil First</span></li>
+                                    <li><span>User Centric</span></li>
+                                    <li><span>Principe UX</span></li><!-- ib:liste:fin -->
+                                </ul><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:section-rwd:fin -->
+                                </div><!-- ib:sections-rwd:fin -->
+                            </div><!-- ib:section-rwd:fin -->
+                        </div>
+                        <div class="flex-col col-xs-12 col-sm-12 col-md-4 col-lg-4 order-lg-3">
+                            <!-- ib:section-rwd:debut -->
+                            <div class="grow-self flex-col p-1 bg-blanc">
+                                <!-- ib:panneau-flex:debut -->
+                                <h1 tabindex="0" class="mt-0 mb-3_2 mt-md-0 text-center">Actualités</h1><a
+                                    href="destination-du-lien"
+                                    class="inline-flex-col p-1_2 bb-1 bb-gris-300 bl-5 bl-professionnel bg-blanc">
+                                    <!-- ib:lien-flex:debut -->
+                                    <p role="heading" aria-level="3" class="mb-1_4 text-noir font-size-16 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Entreprises et administration fiscale : une
+                                            nouvelle relation de confiance</span><!-- ib:paragraphe:fin -->
+                                    </p>
+                                    <p class="text-gris-700 font-size-13 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Professionnel - 15-03-2019</span>
+                                        <!-- ib:paragraphe:fin -->
+                                    </p><!-- ib:lien-flex:fin -->
+                                </a><a href="destination-du-lien"
+                                    class="inline-flex-col p-1_2 bb-1 bb-gris-300 bl-5 bl-professionnel bg-blanc">
+                                    <!-- ib:lien-flex:debut -->
+                                    <p role="heading" aria-level="3" class="mb-1_4 text-noir font-size-16 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Entreprises et administration fiscale : une
+                                            nouvelle relation de confiance</span><!-- ib:paragraphe:fin -->
+                                    </p>
+                                    <p class="text-gris-700 font-size-13 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Professionnel - 15-03-2019</span>
+                                        <!-- ib:paragraphe:fin -->
+                                    </p><!-- ib:lien-flex:fin -->
+                                </a><a href="destination-du-lien"
+                                    class="inline-flex-col p-1_2 bb-1 bb-gris-300 bl-5 bl-professionnel bg-blanc">
+                                    <!-- ib:lien-flex:debut -->
+                                    <p role="heading" aria-level="3" class="mb-1_4 text-noir font-size-16 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Entreprises et administration fiscale : une
+                                            nouvelle relation de confiance</span><!-- ib:paragraphe:fin -->
+                                    </p>
+                                    <p class="text-gris-700 font-size-13 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Professionnel - 15-03-2019</span>
+                                        <!-- ib:paragraphe:fin -->
+                                    </p><!-- ib:lien-flex:fin -->
+                                </a><a href="destination-du-lien"
+                                    class="inline-flex-col p-1_2 bb-1 bb-gris-300 bl-5 bl-professionnel bg-blanc">
+                                    <!-- ib:lien-flex:debut -->
+                                    <p role="heading" aria-level="3" class="mb-1_4 text-noir font-size-16 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Entreprises et administration fiscale : une
+                                            nouvelle relation de confiance</span><!-- ib:paragraphe:fin -->
+                                    </p>
+                                    <p class="text-gris-700 font-size-13 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Professionnel - 15-03-2019</span>
+                                        <!-- ib:paragraphe:fin -->
+                                    </p><!-- ib:lien-flex:fin -->
+                                </a><a href="destination-du-lien"
+                                    class="inline-flex-col p-1_2 bb-1 bb-gris-300 bl-5 bl-professionnel bg-blanc">
+                                    <!-- ib:lien-flex:debut -->
+                                    <p role="heading" aria-level="3" class="mb-1_4 text-noir font-size-16 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Entreprises et administration fiscale : une
+                                            nouvelle relation de confiance</span><!-- ib:paragraphe:fin -->
+                                    </p>
+                                    <p class="text-gris-700 font-size-13 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Professionnel - 15-03-2019</span>
+                                        <!-- ib:paragraphe:fin -->
+                                    </p><!-- ib:lien-flex:fin -->
+                                </a><a href="destination-du-lien"
+                                    class="inline-flex-col p-1_2 bb-1 bb-gris-300 bl-5 bl-professionnel bg-blanc">
+                                    <!-- ib:lien-flex:debut -->
+                                    <p role="heading" aria-level="3" class="mb-1_4 text-noir font-size-16 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Entreprises et administration fiscale : une
+                                            nouvelle relation de confiance</span><!-- ib:paragraphe:fin -->
+                                    </p>
+                                    <p class="text-gris-700 font-size-13 p-unstyled">
+                                        <!-- ib:paragraphe:debut --><span>Professionnel - 15-03-2019</span>
+                                        <!-- ib:paragraphe:fin -->
+                                    </p><!-- ib:lien-flex:fin -->
+                                </a><!-- ib:panneau-flex:fin -->
+                            </div><!-- ib:section-rwd:fin -->
+                        </div><!-- ib:sections-rwd:fin -->
+                    </div>
+                    <div class="row no-gutters">
+                        <!-- ib:sections-rwd:debut -->
+                        <div class="flex-col col-xs-12 hidden-xs col-sm-6 hidden-sm col-md-4 col-md-offset-2">
+                            <!-- ib:section-rwd:debut -->
+                            <div class="grow-self flex-col mt-3 pt-1_8 pb-1 px-1_8 bg-blanc">
+                                <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                    class="inline-flex-row p-1 bg-gris-400">
+                                    <!-- ib:lien-flex:debut --><span
+                                        class="mr-1 dgfipicon dgfipicon-amenager-territoire font-size-40"></span><span
+                                        class="font-size-22 font-bold">L'accéssibilité numérique</span>
+                                    <!-- ib:lien-flex:fin --></a>
+                                <ul class="mt-1 ml-1 liste">
+                                    <!-- ib:liste:debut -->
+                                    <li><span>Introduction</span></li>
+                                    <li><span>Legislation</span></li>
+                                    <li><span>RGAA</span></li>
+                                    <li><span>Audits</span></li><!-- ib:liste:fin -->
+                                </ul><!-- ib:panneau-flex:fin -->
+                            </div><!-- ib:section-rwd:fin -->
+                        </div>
+                        <div class="flex-col col-xs-12 hidden-xs col-sm-6 hidden-sm col-md-4 col-md-offset-1">
+                            <!-- ib:section-rwd:debut -->
+                            <div class="grow-self flex-col mt-3 pt-1_8 pb-1 px-1_8 bg-blanc">
+                                <!-- ib:panneau-flex:debut --><a href="destination-du-lien"
+                                    class="inline-flex-row p-1 bg-gris-400">
+                                    <!-- ib:lien-flex:debut --><span
+                                        class="mr-1 dgfipicon dgfipicon-profil font-size-40"></span><span
+                                        class="font-size-22 font-bold">UX - Design</span><!-- ib:lien-flex:fin --></a>
+                                <ul class="mt-1 ml-1 liste">
+                                    <!-- ib:liste:debut -->
+                                    <li><span>Mobil First</span></li>
+                                    <li><span>User Centric</span></li>
+                                    <li><span>Principe UX</span></li><!-- ib:liste:fin -->
+                                </ul><!-- ib:panneau-flex:fin -->
+                            </div><!-- ib:section-rwd:fin -->
+                        </div><!-- ib:sections-rwd:fin -->
+                    </div>
+                </div><!-- ib:bloc-contenu:fin -->
+            </div>
+        </div><!-- ib:espace-dialogue:fin -->
+    </main>
+
+    <!-- inea:pied-page:debut -->
+    <div class="bloc-pieddepage">
+        <!-- inea:bloc-pied-page-legal:debut -->
+        <div class="bloc-pieddepage-legal">
+            <div class="container">
+                <div class="row">
+                    <!-- inea:pied-page-legal:debut -->
+                    <div class="col-xs-12 pieddepage-legal">
+                        <footer role="contentinfo">
+                            <p class="p-unstyled text-center">
+                                © Direction générale des Finances publiques
+                                <span aria-hidden="true"> - </span>
+                                <a href="https://www.impots.gouv.fr/portail/mentions-legales" target="_blank"
+                                    rel="noopener" title="Mentions légales (nouvelle fenêtre)">Mentions légales</a>
+                            </p>
+                        </footer>
+                    </div>
+                    <!-- inea:pied-page-legal:fin -->
+                </div>
+            </div>
+        </div>
+        <!-- inea:bloc-pied-page-legal:fin -->
+    </div>
+    <!-- inea:pied-page:fin -->
+</body>
+
+</html>

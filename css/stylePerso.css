@@ -1,0 +1,82 @@
+.navbar-toggle {
+    background-color: gray;
+    opacity: 0.7;
+}
+
+/*
+---------- border du nav disparait au survol. Fait l'inverse de ce que je veux
+*/
+/*
+.navbar-nav > li > a,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:focus {
+    background-color: white;
+ }
+*/
+header .navbar-toggle {
+  margin-left: 18px;
+  margin-top: 8px; }
+
+.navbar-nav {
+  background-color: white;
+}
+
+.navbar-nav > .open > a {
+  text-decoration: overline ; }
+
+.navbar-nav > li > a:hover {
+  border-color: #e35600;
+}
+
+/*------------------ Couleurs --------------------*/
+.corail-txt{
+  color: #e35600;
+}
+
+.corail-bg{
+  background-color: #ff7f50;
+}
+
+.corail-bc {
+  border-color: #e35600;
+}
+
+.orangeMaquette-bg{
+  background-color: #E4B176;
+}
+
+.orangePastelMaquette-bg {
+  background-color: #F3DCC1;
+}
+
+/*----------------- logo --------------------------*/
+
+.logo-dgfip {
+  width: 40%; }
+  .logo-dgfip > img {
+    width: 100%;
+  }
+
+.logo-capNum{
+    width: 40%;
+  }
+.logo-capNum > img{
+  width:100%;
+}
+
+.devDemarche {
+  padding-left:30px;
+}
+
+.devDemarche > ul {
+  list-style-type: none;
+}
+
+.devDemarche > ul > li + li {
+  margin-top:10px;}
+
+.devDemarche > ul > li > a {
+  text-decoration: none;
+}
+
+
