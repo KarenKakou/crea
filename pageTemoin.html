@@ -64,75 +64,99 @@
     </div>
     <!-- inea:liens-evitement:fin -->
 
+    <!-- inea:liens-evitement:debut -->
+    <div class="bloc-liens-evitement">
+        <p class="sr-only">Accès rapide</p>
+        <ul class="skiplinks">
+            <li>
+                <a href="#" inea-target-focus="main h1">Contenu</a>
+            </li>
+        </ul>
+    </div>
+    <!-- inea:liens-evitement:fin -->
+
     <!-- inea:entete:debut -->
-    <header class="prive" role="banner">
+    <header class="public" role="banner">
         <div class="container">
             <!-- inea:bloc-entete:debut -->
             <div class="row bloc-entete">
                 <!-- inea:accueil-entete:debut -->
                 <div class="col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-1 pl-sm-0 col-md-6 col-md-offset-0">
                     <a class="inline-flex-row accueil-entete" href="index.html">
-                        <div class="marianne-entete logo-marianne">
+                        <div class="logo-dgfip">
+                            <img src="img/dgfip_logo.png" alt="logo de la direction générale des finances publiques" />
                         </div>
                         <div class="inline-flex-col titre-entete">
                             <div class="libelle-titre-entete text-nowrap">
-                                <span class="text-undefined">Mon espace</span> undefined
-                            </div>
-                            <div class="grow-self logo-titre-entete logo-impots-gouv-fr">
+                                <span class="text-undefined">CREA</span>
                             </div>
                         </div>
+                        <div class="grow-self logo-capNum">
+                            <img src="img/LOGO_FINAL4_petit.png" alt="logo de cap numérique" />
+                        </div>
+                        
                     </a>
                 </div>
                 <!-- inea:accueil-entete:fin -->
 
-                <!-- inea:actions-privees:debut -->
-                <div class="col-xs-12 col-sm-5 pr-sm-0 col-md-6">
-                    <div class="btn-group btn-group-prive pull-right">
-                        <!-- inea:bouton-compose:debut -->
-                        <a href="non-realise.html" class="btn btn-default btn-compose-vertical">
-                            <span class="dgfipicon dgfipicon-deconnexion"></span>Déconnexion
-                        </a>
-                        <!-- inea:bouton-compose:fin -->
-                    </div>
-                </div>
-                <!-- inea:actions-privees:fin -->
+
             </div>
             <!-- inea:bloc-entete:fin -->
 
-            <!-- inea:bloc-details-identification:debut -->
-            <div class="row bloc-details-identification">
-                <!-- inea:details-identification:debut -->
-                <div class="col-xs-12 pr-sm-0 details-identification">
-                    <p class="p-unstyled">
-                        <span class="font-bold">Carole DUBOIS</span>
-                    </p>
-                </div>
-                <!-- inea:details-identification:fin -->
-            </div>
-            <!-- inea:bloc-details-identification:fin -->
-
             <!-- inea:bloc-barre-navigation:debut -->
-            <div class="row bloc-barre-navigation visible-xs-block">
+            <div class="row bloc-barre-navigation ">
                 <!-- inea:barre-navigation:debut -->
-                <div class="navbar navbar-default">
+                <div class="navbar navbar-usager">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navbar-collapse" tabindex="-1" aria-hidden="true">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
                         </button>
                     </div>
                     <div id="navbar-collapse" class="collapse navbar-collapse">
-                        <div class="visible-xs-block">
+                        <nav role="navigation" aria-label="Menu principal">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="non-realise.html">
-                                        <span class="dgfipicon dgfipicon-deconnexion mr-1_4"></span>Déconnexion
+                                    <a href="#">enjeux</a>
+                                </li>
+                                <li class="active corail-bc">
+                                    <a href="introDemarche.html">
+                                        démarche projet
+                                        <span class="sr-only ">, élément actif</span>
                                     </a>
+                                    <div class="visible-xs-block visible-sm-block devDemarche">
+                                        <ul class="">
+                                            <li>
+                                                <a href="">
+                                                    Maquettage
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">Prototypage</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Developpement</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">ressources</a>
+                                </li>
+                                <li>
+                                    <a href="#">accompagnement</a>
+                                </li>
+                                <li class="divider" aria-hidden="true"></li>
+                                <li>
+                                    <a href="#">accessibilité numérique</a>
+                                </li>
+                                <li>
+                                    <a href="#">UX-Design</a>
                                 </li>
                             </ul>
-                        </div>
+                        </nav>
                     </div>
                 </div>
                 <!-- inea:barre-navigation:fin -->
@@ -237,16 +261,6 @@
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-8">
                                 <!-- ib:contenu-rwd:debut -->
-                                <div class="row">
-                                    <!-- ib:contenus-rwd:debut -->
-                                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-                                        <!-- ib:contenu-rwd:debut --><a href="destination-du-lien"
-                                            class="btn btn-default">
-                                            <!-- ib:lien:debut -->
-                                            Accéder
-                                            <!-- ib:lien:fin --></a><!-- ib:contenu-rwd:fin -->
-                                    </div><!-- ib:contenus-rwd:fin -->
-                                </div>
                                 <div class="row">
                                     <!-- ib:contenus-rwd:debut -->
                                     <div class="col-xs-12">
