@@ -1,0 +1,59 @@
+.bg-chartre{
+  background-color:  #A7BFE1;
+}
+
+.bg-inea{
+  background-color:  #5ECAD8;
+}
+
+.bg-logiciel{
+  background-color:  #728BD1;
+}
+
+.bg-exemple{
+  background-color:  #6670E6;
+}
+
+.bg-pratique{
+  background-color:  #5B85A0;
+}
+
+
+.titre {
+    border-bottom:  3px solid;
+    border-bottom-color:  #59ADFF;
+;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+
+.titre-chartre {
+    border-bottom:  3px solid;
+    border-bottom-color:  #A7BFE1;
+;
+}
+.titre-inea {
+    border-bottom:  3px solid;
+    border-bottom-color:  #5ECAD8;
+;
+}
+.titre-logiciel {
+    border-bottom:  3px solid;
+    border-bottom-color:  #728BD1;
+;
+}
+.titre-pratique {
+    border-bottom:  3px solid;
+    border-bottom-color:  #5B85A0;
+;
+}
+.titre-exemple {
+    border-bottom:  3px solid;
+    border-bottom-color:  #6670E6;
+;
+}
+

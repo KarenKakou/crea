@@ -1,0 +1,53 @@
+.bg-formation{
+  background-color:  #C99595;
+}
+
+.bg-tutorat{
+  background-color:  #F49292;
+}
+
+.bg-forum{
+  background-color:  #D36161;
+}
+
+.bg-pole{
+  background-color:  #D13C3C;
+}
+
+
+.titre {
+    border-bottom:  3px solid;
+    border-bottom-color:  #F05E64;
+;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+
+.titre-tutorat {
+    border-bottom:  3px solid;
+    border-bottom-color:  #F49292;
+;
+}
+
+.titre-formation {
+    border-bottom:  3px solid;
+    border-bottom-color:  #C99595;
+;
+}
+
+.titre-pole {
+    border-bottom:  3px solid;
+    border-bottom-color:  #D13C3C;
+;
+}
+
+.titre-forum {
+    border-bottom:  3px solid;
+    border-bottom-color:  #D36161;
+;
+}
+

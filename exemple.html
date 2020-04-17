@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <base href="./" />
+    <meta charset="utf-8" />
+    <title>Billet de train</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Billet de train" />
+    <meta name="author" content="DGFiP" />
+    <meta name="msapplication-config" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="img/favicon.ico" />
+    <!--[if IE]>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+<![endif]-->
+    <!-- Optional: Android & iPhone-->
+    <link rel="icon apple-touch-icon-precomposed" href="img/favicon-152.png" />
+    <!-- Optional: IE10 Tile.-->
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/favicon-144.png" />
+    <!-- Optional: ipads, androids, iphones, ...-->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png" />
+    <link rel="apple-touch-icon" href="img/favicon-57.png" />
+
+    <link href="css/application.css" rel="stylesheet" />
+    <link href="css/stylePerso.css" rel="stylesheet" />
+    <link href="css/styleRessource.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/inea.min.js" async defer></script>
+    <script src="js/jquery-ui.min.js" async defer></script>
+</head>
+
+<body class="partenaire">
+    <noscript>
+        <p class="js-off">Javascript est desactivé dans votre navigateur.</p>
+    </noscript>
+
+    <!-- inea:browsehappy:debut -->
+    <!--[if lt IE 8]>
+        <div class="browsehappy">
+            <div class="container">
+            <p>Savez-vous que votre navigateur est obsolète ?<p>
+            <p> Pour naviguer de la manière la plus satisfaisante sur le Web, nous vous recommandons de procéder à une <a href="http://windows.microsoft.com/fr-fr/internet-explorer/download-ie">mise à jour de votre navigateur</a>.
+            <br>Vous pouvez aussi <a href="http://browsehappy.com/">essayer d’autres navigateurs web populaires</a>.</p>
+            </div>
+        </div>
+    <![endif]-->
+    <!-- inea:browsehappy:fin -->
+
+    <!-- inea:liens-evitement:debut -->
+    <div class="bloc-liens-evitement">
+        <p class="sr-only">Accès rapide</p>
+        <ul class="skiplinks">
+            <li>
+                <a href="#" inea-target-focus="main h1">Contenu</a>
+            </li>
+        </ul>
+    </div>
+    <!-- inea:liens-evitement:fin -->
+
+    <!-- inea:entete:debut -->
+    <header class="public" role="banner">
+        <div class="container">
+            <!-- inea:bloc-entete:debut -->
+            <div class="row bloc-entete">
+                <!-- inea:accueil-entete:debut -->
+                <div class="col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-1 pl-sm-0 col-md-6 col-md-offset-0 col-lg-12">
+                    <a class="inline-flex-row accueil-entete" href="index.html">
+                        <div class="logo-dgfip">
+                            <img src="img/dgfip_logo.png" alt="logo de la direction générale des finances publiques" />
+                        </div>
+                        <div class="inline-flex-col titre-entete">
+                            <div class="libelle-titre-entete text-nowrap">
+                                <span class="text-undefined">CREA</span>
+                            </div>
+                        </div>
+                        <div class="grow-self logo-capNum">
+                            <img src="img/LOGO_FINAL4_petit.png" alt="logo de cap numérique" />
+                        </div>
+
+                    </a>
+                </div>
+                <!-- inea:accueil-entete:fin -->
+
+
+            </div>
+            <!-- inea:bloc-entete:fin -->
+
+            <!-- inea:bloc-barre-navigation:debut -->
+            <div class="row bloc-barre-navigation ">
+                <!-- inea:barre-navigation:debut -->
+                <div class="navbar navbar-usager">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse" tabindex="-1" aria-hidden="true">
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                        </button>
+                    </div>
+                    <div id="navbar-collapse" class="collapse navbar-collapse">
+                        <nav role="navigation" aria-label="Menu principal">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#">enjeux</a>
+                                </li>
+                                <li class="active">
+                                    <a href="introDemarche.html">
+                                        démarche projet
+                                        <span class="sr-only ">, élément actif</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">ressources</a>
+                                </li>
+                                <li>
+                                    <a href="#">accompagnement</a>
+                                </li>
+                                <li class="divider" aria-hidden="true"></li>
+                                <li>
+                                    <a href="#">accessibilité numérique</a>
+                                </li>
+                                <li>
+                                    <a href="#">UX-Design</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- inea:barre-navigation:fin -->
+            </div>
+            <!-- inea:bloc-barre-navigation:fin -->
+        </div>
+    </header>
+    <!-- inea:entete:fin -->
+
+    <!-- ib:page:debut -->
+    <div class="container">
+        <div class="row bloc-fil-ariane">
+            <!-- ib:bloc-fil-ariane:debut -->
+            <div class="col-xs-12 fil-ariane">
+                <ol aria-label="Vous êtes ici" class="breadcrumb">
+                    <li><a href="index.html">
+                            <!-- ib:lien:debut -->
+                            Accueil
+                            <!-- ib:lien:fin --></a></li>
+                    <li><a href="ressource.html">
+                            <!-- ib:lien:debut -->
+                            Les ressources
+                            <!-- ib:lien:fin --></a></li>
+                    <li><span>Exemples</span></li>
+                </ol>
+            </div><!-- ib:bloc-fil-ariane:fin -->
+        </div>
+    </div>
+    <main role="main">
+        <!-- ib:espace-dialogue:debut -->
+        <div class="container">
+            <section class="row bloc-titre">
+                <!-- ib:bloc-titre:debut -->
+                <div class="col-xs-12 titre-espace-dialogue">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="titre text-center titre-exemple">
+                                <!-- ib:titre:debut -->
+                                <h1 tabindex="0">
+                                    Exemples
+                                </h1><!-- ib:titre:fin -->
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ib:bloc-titre:fin -->
+            </section>
+            <div class="row no-gutters bloc-contenu">
+                <!-- ib:bloc-contenu:debut -->
+                <div class="col-xs-12 flex-col">
+                    <section class="grow-self gutters py-1 bg-blanc">
+                        <!-- ib:panneau-rwd:debut -->
+                        <div class="row">
+                            <!-- ib:contenus-rwd:debut -->
+                            <div class="col-xs-12">
+                                <!-- ib:contenu-rwd:debut --><span>Texte explicatif chartre</span>
+                                <!-- ib:contenu-rwd:fin -->
+                            </div><!-- ib:contenus-rwd:fin -->
+                        </div><!-- ib:panneau-rwd:fin -->
+                    </section>
+                </div><!-- ib:bloc-contenu:fin -->
+            </div>
+            <div class="row no-gutters bloc-contenu">
+                <!-- ib:bloc-contenu:debut -->
+                <div class="col-xs-12 flex-col">
+                    <section class="grow-self gutters py-1 bg-blanc">
+                        <!-- ib:panneau-rwd:debut -->
+                        <div class="row">
+                            <!-- ib:contenus-rwd:debut -->
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <!-- ib:contenu-rwd:debut --><a href="inea.html"
+                                    class="flex-col w-xs-100 mb-1 a-unstyled">
+                                    <!-- ib:lien-flex:debut -->
+                                    <div
+                                        class="grow-self inline-flex-col justify-content-center align-items-center hidden-xs bg-gris-100">
+                                        <!-- ib:panneau-flex:debut --><img src="img/ressource/logoinea.png"
+                                            alt="logo inea" style="width:11.25rem;height:9.375rem;">
+                                        <!-- ib:panneau-flex:fin -->
+                                    </div>
+                                    <div
+                                        class="flex-col justify-content-center align-items-center h-100 w-100 h-xs-100 w-xs-100 p-1 font-size-18 bg-inea">
+                                        <!-- ib:panneau-flex:debut --><span>INEA</span><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:lien-flex:fin -->
+                                </a><!-- ib:contenu-rwd:fin -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <!-- ib:contenu-rwd:debut --><a href="logiciel.html"
+                                    class="inline-flex-col w-100 mb-1 a-unstyled">
+                                    <!-- ib:lien-flex:debut -->
+                                    <div
+                                        class="grow-self inline-flex-col justify-content-center align-items-center hidden-xs bg-gris-100">
+                                        <!-- ib:panneau-flex:debut --><img
+                                            src="img/ressource/icons8_maintenance_1px_1-2.png" alt="logo logiciel/outil"
+                                            style="width:11.25rem;height:9.375rem;"><!-- ib:panneau-flex:fin -->
+                                    </div>
+                                    <div
+                                        class="inline-flex-col justify-content-center align-items-center p-1 font-size-18 bg-logiciel">
+                                        <!-- ib:panneau-flex:debut --><span>Logiciels/outils</span>
+                                        <!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:lien-flex:fin -->
+                                </a><!-- ib:contenu-rwd:fin -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <!-- ib:contenu-rwd:debut --><a href="chartre.html"
+                                    class="inline-flex-col w-100 mb-1 a-unstyled">
+                                    <!-- ib:lien-flex:debut -->
+                                    <div
+                                        class="grow-self inline-flex-col justify-content-center align-items-center hidden-xs bg-gris-100">
+                                        <!-- ib:panneau-flex:debut --><img src="img/ressource/icons8_rules_16px_2.png"
+                                            alt="logo chartre" style="width:11.25rem;height:9.375rem;">
+                                        <!-- ib:panneau-flex:fin -->
+                                    </div>
+                                    <div
+                                        class="inline-flex-col justify-content-center align-items-center p-1 font-size-18 bg-chartre">
+                                        <!-- ib:panneau-flex:debut --><span>Chartre</span><!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:lien-flex:fin -->
+                                </a><!-- ib:contenu-rwd:fin -->
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <!-- ib:contenu-rwd:debut --><a href="pratique.html"
+                                    class="inline-flex-col w-100 h-xs-100 mb-1 a-unstyled">
+                                    <!-- ib:lien-flex:debut -->
+                                    <div class="grow-self inline-flex-row justify-content-center hidden-xs bg-gris-100">
+                                        <!-- ib:panneau-flex:debut --><img src="img/ressource/icons8_idea_1px.png"
+                                            alt="logo pratique" style="width:11.25rem;height:9.375rem;">
+                                        <!-- ib:panneau-flex:fin -->
+                                    </div>
+                                    <div
+                                        class="inline-flex-col justify-content-center align-items-center p-1 font-size-18 bg-pratique">
+                                        <!-- ib:panneau-flex:debut --><span>Bonnes pratiques</span>
+                                        <!-- ib:panneau-flex:fin -->
+                                    </div><!-- ib:lien-flex:fin -->
+                                </a><!-- ib:contenu-rwd:fin -->
+                            </div><!-- ib:contenus-rwd:fin -->
+                        </div><!-- ib:panneau-rwd:fin -->
+                    </section>
+                </div><!-- ib:bloc-contenu:fin -->
+            </div>
+        </div><!-- ib:espace-dialogue:fin -->
+    </main><!-- ib:page:fin -->
+    <script>
+        $(document).ready(function () {
+            $('table[is-datatable]').DataTable({
+                info: false,
+                pagingType: "full_numbers",
+                language: $.fn.dataTable.languages.fr
+            });
+        });
+    </script>
+
+    <!-- inea:pied-page:debut -->
+    <div class="bloc-pieddepage">
+        <!-- inea:bloc-pied-page-legal:debut -->
+        <div class="bloc-pieddepage-legal">
+            <div class="container">
+                <div class="row">
+                    <!-- inea:pied-page-legal:debut -->
+                    <div class="col-xs-12 pieddepage-legal">
+                        <footer role="contentinfo">
+                            <p class="p-unstyled text-center">
+                                © Direction générale des Finances publiques
+                                <span aria-hidden="true"> - </span>
+                                <a href="https://www.impots.gouv.fr/portail/mentions-legales" target="_blank"
+                                    rel="noopener" title="Mentions légales (nouvelle fenêtre)"
+                                    aria-label="Mentions légales (nouvelle fenêtre)">Mentions légales</a>
+                            </p>
+                        </footer>
+                    </div>
+                    <!-- inea:pied-page-legal:fin -->
+                </div>
+            </div>
+        </div>
+        <!-- inea:bloc-pied-page-legal:fin -->
+    </div>
+    <!-- inea:pied-page:fin -->
+</body>
+
+</html>
