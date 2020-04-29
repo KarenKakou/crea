@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <base href="./" />
+    <meta charset="utf-8" />
+    <title>Billet de train</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Billet de train" />
+    <meta name="author" content="DGFiP" />
+    <meta name="msapplication-config" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="img/favicon.ico" />
+    <!--[if IE]>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+<![endif]-->
+    <!-- Optional: Android & iPhone-->
+    <link rel="icon apple-touch-icon-precomposed" href="img/favicon-152.png" />
+    <!-- Optional: IE10 Tile.-->
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="img/favicon-144.png" />
+    <!-- Optional: ipads, androids, iphones, ...-->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png" />
+    <link rel="apple-touch-icon" href="img/favicon-57.png" />
+
+    
+    <link href="css/application.css" rel="stylesheet" />
+    <link href="css/stylePerso.css" rel="stylesheet" />
+    <link href="css/styleEnjeux.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/inea.min.js" async defer></script>
+    <script src="js/jquery-ui.min.js" async defer></script>
+</head>
+
+<body class="partenaire">
+    <noscript>
+        <p class="js-off">Javascript est desactivé dans votre navigateur.</p>
+    </noscript>
+
+    <!-- inea:browsehappy:debut -->
+    <!--[if lt IE 8]>
+        <div class="browsehappy">
+            <div class="container">
+            <p>Savez-vous que votre navigateur est obsolète ?<p>
+            <p> Pour naviguer de la manière la plus satisfaisante sur le Web, nous vous recommandons de procéder à une <a href="http://windows.microsoft.com/fr-fr/internet-explorer/download-ie">mise à jour de votre navigateur</a>.
+            <br>Vous pouvez aussi <a href="http://browsehappy.com/">essayer d’autres navigateurs web populaires</a>.</p>
+            </div>
+        </div>
+    <![endif]-->
+    <!-- inea:browsehappy:fin -->
+
+    <!-- inea:liens-evitement:debut -->
+    <div class="bloc-liens-evitement">
+        <p class="sr-only">Accès rapide</p>
+        <ul class="skiplinks">
+            <li>
+                <a href="#" inea-target-focus="main h1">Contenu</a>
+            </li>
+        </ul>
+    </div>
+    <!-- inea:liens-evitement:fin -->
+
+    <!-- inea:entete:debut -->
+    <header class="public" role="banner">
+        <div class="container">
+            <!-- inea:bloc-entete:debut -->
+            <div class="row bloc-entete">
+                <!-- inea:accueil-entete:debut -->
+                <div class="col-xs-10 col-xs-offset-2 col-sm-6 col-sm-offset-1 pl-sm-0 col-md-6 col-md-offset-0 col-lg-12">
+                    <a class="inline-flex-row accueil-entete" href="index.html">
+                        <div class="logo-dgfip">
+                            <img src="img/dgfip_logo.png" alt="logo de la direction générale des finances publiques" />
+                        </div>
+                        <div class="inline-flex-col titre-entete">
+                            <div class="libelle-titre-entete text-nowrap">
+                                <span class="text-undefined">CREA</span>
+                            </div>
+                        </div>
+                        <div class="grow-self logo-capNum">
+                            <img src="img/LOGO_FINAL4_petit.png" alt="logo de cap numérique" />
+                        </div>
+
+                    </a>
+                </div>
+                <!-- inea:accueil-entete:fin -->
+
+
+            </div>
+            <!-- inea:bloc-entete:fin -->
+
+            <!-- inea:bloc-barre-navigation:debut -->
+            <div class="row bloc-barre-navigation ">
+                <!-- inea:barre-navigation:debut -->
+                <div class="navbar navbar-usager">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse" tabindex="-1" aria-hidden="true">
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                            <span class="icon-bar corail-bg"></span>
+                        </button>
+                    </div>
+                    <div id="navbar-collapse" class="collapse navbar-collapse">
+                        <nav role="navigation" aria-label="Menu principal">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="enjeux.html">Bienvenue sur CREA</a>
+                                </li>
+                                <li class="active">
+                                    <a href="introDemarche.html">
+                                        démarche projet
+                                        <span class="sr-only ">, élément actif</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="ressource.html">ressources</a>
+                                </li>
+                                <li>
+                                    <a href="accompagnement.html">accompagnement</a>
+                                </li>
+                                <li class="divider" aria-hidden="true"></li>
+                                <li>
+                                    <a href="#">accessibilité numérique</a>
+                                </li>
+                                <li>
+                                    <a href="#">UX-Design</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- inea:barre-navigation:fin -->
+            </div>
+            <!-- inea:bloc-barre-navigation:fin -->
+        </div>
+    </header>
+    <!-- inea:entete:fin -->
+    <script>
+        $(function () {
+            $(".tooltip-link").tooltip();
+        });
+    </script>
+
+    <!-- ib:page:debut -->
+    <div class="container">
+        <div class="row bloc-fil-ariane">
+            <!-- ib:bloc-fil-ariane:debut -->
+            <div class="col-xs-12 fil-ariane">
+                <ol aria-label="Vous êtes ici" class="breadcrumb">
+                    <li>
+                        <a href="index.html">
+                            <!-- ib:lien:debut -->Accueil
+                            <!-- ib:lien:fin --></a></li>
+                    <li>
+
+
+                        <span>Pourquoi CREA ?</span></li>
+                </ol>
+            </div><!-- ib:bloc-fil-ariane:fin -->
+        </div>
+    </div>
+
+
+    <main role="main">
+        <!-- ib:espace-dialogue:debut -->
+
+        <div class="container">
+
+            <div class="row no-gutters bloc-contenu">
+                <!-- ib:bloc-contenu:debut -->
+
+                <div class="col-xs-12 flex-col">
+                    <section class="grow-self gutters py-1 bg-blanc flex-col">
+                        <!-- ib:panneau-rwd:debut -->
+
+                        <form action="proposition.html" method="post" class="grow-self form-horizontal">
+
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut -->
+
+                                    <h1 tabindex="0">Pourquoi CREA ?</h1>
+
+                                    <!-- ib:contenu-rwd:fin -->
+
+                                </div><!-- ib:contenus-rwd:fin -->
+
+                            </div>
+
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut -->
+
+                                    <span>CREA est l'acronyme de Conception et Réalisation Ergonomique et Accessible
+
+                                        <br />C'est surtout le nouveau site de la DGFiP dédié à la mise en œuvre des
+                                        interfaces web.
+                                        <br />Il couvre toutes les phases de la conception des <a href="pole.html"
+                                            class="link tooltip-link" data-toggle="tooltip"
+                                            data-original-title="Interfaces Homme Machine">IHM</a> web à leur
+                                        réalisation.
+
+                                    </span><!-- ib:contenu-rwd:fin -->
+
+                                </div><!-- ib:contenus-rwd:fin -->
+
+                            </div>
+
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut -->
+
+                                    <h2>Quel est l'objectif ?</h2><!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut --><span>Le but de CREA est de permettre la mise en œuvre
+                                        d'applications web à la fois :
+
+                                        <br />- <a class="link tooltip-link" data-toggle="tooltip"
+                                            data-original-title="Ergonomiques :L'interface doit être conviviale, adaptée, utile, « facile à lire et à comprendre » ...etc...(voir UX-Design)">ergonomiques</a>
+                                        et <a class="link tooltip-link" data-toggle="tooltip"
+                                            data-original-title="Homogènes :
+Toutes les IHM des applications de la DGFiP doivent adopter une identité, une mise en page et une navigation communes. Elles respectent toutes la Charte Ergonomique">homogènes
+                                        </a>
+
+                                        <br />
+                                        – <a class="link tooltip-link" data-toggle="tooltip" data-original-title="Adaptatives :
+Les pages s'ajustent automatiquement à la taille d’écran du terminal utilisé (RWD).
+Cette contrainte n'est pas optionnelle, même pour un site interne.">adaptatives</a><br />– <a class="link tooltip-link"
+                                            data-toggle="tooltip" data-original-title="Accessibles :
+Le site doit être pleinement utilisable par une personne en situation de handicap (voir Accessibilité Numérique).
+La mise en œuvre d'un tel site impose un soin particulier dès la conception.">accessibles</a><br />CREA propose aux
+                                        équipes d'adopter une démarche projet efficace facilitant
+                                        grandement<br />l'accomplissement de ces objectifs.</span>
+                                    <!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut -->
+                                    <h2>A qui s'adresse CREA ?</h2><!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut --><span>CREA est conçu pour servir de support à toutes
+                                        les équipes projet qui ont le besoin de mettre en place ou<br />faire évoluer
+                                        des IHM Web.<br />CREA s'adresse aux responsables de projets autant qu'à leurs
+                                        équipes.<br />Que vous travailliez en maîtrise d'ouvrage ou en maîtrise d’œuvre,
+                                        vous trouverez ici les informations qui<br />vous permettront de produire des
+                                        interfaces de qualité.<br /><br />Toutes les applications web de la DGFiP sont
+                                        concernées (internes comme externes) ainsi que toutes les<br />sphères métier
+                                        (particuliers, professionnels, RH, collectivités, agents, ....), sans
+                                        restriction.</span><!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut -->
+                                    <h2>Que vais-je trouver ici ?</h2><!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut --><span>Tout d'abord, CREA vous présente en détail la <a
+                                            class="link" href="demarche.html">démarche projet</a> qui couvre les étapes
+                                        du maquettage, du<br />prototypage jusqu'au développement applicatif.<br />Vous
+                                        trouverez également l'ensemble des <a class="link"
+                                            href="ressource.html">ressources</a>, outils, exemples et bonnes pratiques à
+                                        votre<br />disposition à chacun des stades de l'élaboration.<br />Vous n'êtes
+                                        pas seuls ! CREA recense pour vous toutes les <a class="link"
+                                            href="aide.html">aides</a> internes ou externes, les
+                                        formations,<br />tutorat, forums qui peuvent vous faciliter la tâche.<br />CREA
+                                        vous propose également le support d'un « <a class="link" href="pole.html">pôle
+                                            IHM</a> », n'hésitez pas à le solliciter si nécessaire.<br />Par ailleurs,
+                                        CREA vous propose un focus sur quelques sujets transverses importants tels
+                                        que<br />l'<a class="link" href="accessibilite.html">Accessibilité Numérique</a>
+                                        ou l'<a class="link" href="ux.html">UX-Design</a>, ainsi que des articles d'<a
+                                            class="link" href="actualite.html">actualité</a>.</span>
+                                    <!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut -->
+                                    <h2>CREA va-t-il évoluer ?</h2><!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                            <div class="row">
+                                <!-- ib:contenus-rwd:debut -->
+                                <div class="col-xs-12">
+                                    <!-- ib:contenu-rwd:debut --><span>Oui !<br />Ce site a vocation à être enrichi au
+                                        fur et à mesure des expériences de chacun.<br />N'hésitez pas à <a class="link"
+                                            href="contacter.html">nous contacter</a> pour nous faire part de vos idées,
+                                        remarques, propositions ou<br />commentaires.<br />Nous vous invitons également
+                                        à nous <a class="link" href="soumettreArticle.html">soumettre des articles à
+                                            paraître</a> dans les sujets transverses ou dans<br />le fil des actualités
+                                        :-)</span><!-- ib:contenu-rwd:fin -->
+                                </div><!-- ib:contenus-rwd:fin -->
+                            </div>
+                        </form><!-- ib:panneau-rwd:fin -->
+                    </section>
+                </div><!-- ib:bloc-contenu:fin -->
+            </div>
+        </div><!-- ib:espace-dialogue:fin -->
+    </main><!-- ib:page:fin -->
+    <script>
+        $(document).ready(function () {
+            $('table[is-datatable]').DataTable({
+                info: false,
+                pagingType: "full_numbers",
+                language: $.fn.dataTable.languages.fr
+            });
+        });
+    </script>
+
+    <!-- inea:pied-page:debut -->
+    <div class="bloc-pieddepage">
+        <!-- inea:bloc-pied-page-legal:debut -->
+        <div class="bloc-pieddepage-legal">
+            <div class="container">
+                <div class="row">
+                    <!-- inea:pied-page-legal:debut -->
+                    <div class="col-xs-12 pieddepage-legal">
+                        <footer role="contentinfo">
+                            <p class="p-unstyled text-center">
+                                © Direction générale des Finances publiques
+                                <span aria-hidden="true"> - </span>
+                                <a href="https://www.impots.gouv.fr/portail/mentions-legales" target="_blank"
+                                    rel="noopener" title="Mentions légales (nouvelle fenêtre)"
+                                    aria-label="Mentions légales (nouvelle fenêtre)">Mentions légales</a>
+                            </p>
+                        </footer>
+                    </div>
+                    <!-- inea:pied-page-legal:fin -->
+                </div>
+            </div>
+        </div>
+        <!-- inea:bloc-pied-page-legal:fin -->
+    </div>
+    <!-- inea:pied-page:fin -->
+</body>
+
+</html>
